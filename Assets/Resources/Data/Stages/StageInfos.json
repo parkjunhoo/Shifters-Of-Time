@@ -1,25 +1,25 @@
 {
-    "itemInfos": [
+    "stageInfos": [
         {
             "code": "0",
-            "name": "Shoes",
-            "subText":"Increase MoveSpeed.",
-            "price":"100",
-            "value": "{'moveSpeed':'1.03'}"
+            "name": "Stage0",
+            "monster":"[0,1]",
+            "boss":"0",
+            "subText":"스테이지0 서브텍스트."
         },
         {
             "code": "1",
-            "name": "Sword",
-            "price":"100",
-            "subText":"Increase Attack.",
-            "value": "{'attack':'5'}"
+            "name": "Stage1",
+            "monster":"[0,2,3]",
+            "boss":"1",
+            "subText":"스테이지1 서브텍스트."
         },
         {
             "code": "2",
-            "name": "VampireRing",
-            "price":"300",
-            "subText":"Drains a certain amount of damage as HP.",
-            "value": "{'drain':'0.03'}"
+            "name": "Stage2",
+            "monster":"[0,1,2,3,4]",
+            "boss":"2",
+            "subText":"스테이지2 서브텍스트."
         }
     ]
 }
